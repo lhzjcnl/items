@@ -1,0 +1,142 @@
+header #logo{
+    width: 30%;
+    text-align: center;
+    background-color: white;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+header{
+    background-image: url("img/bg.png");
+}
+header .input .btn{
+    padding: 0.2rem 0.5rem;
+    border-radius: 1rem;
+    background-color: blue;
+    color: white;
+    font-size: 0.8rem;
+}
+header .input{
+    font-size: 0.8rem;
+    background-color: white;
+    border-bottom-right-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+    padding: 0.3rem 1rem;
+    display: inline-flex;
+}
+header .top{
+    text-align: right;
+}
+header .input span{
+    color: blue;
+}
+header .right{
+    width: 70%;
+}
+header .input input{
+    width: 5rem;
+    padding: 0.2rem;
+    border: 1px solid blue;
+    margin-right: 0.5rem;
+}
+img{
+    width: 100% !important;
+    border: 0.5rem solid white !important;
+    border-radius: 0.3rem !important;
+}
+header #logo img{
+    width: 8rem !important;
+}
+header .box1{
+    display: flex;
+}
+header .nav{
+    color: white;
+    padding-top: 4rem;
+    display: flex;
+    padding-left: 2rem;
+    justify-content: space-between;
+}
+header .nav span{
+    padding: 0.2rem;
+    border-bottom: 3px solid gray;
+}
+.box2{
+    padding: 2rem 0;
+}
+main{
+    background-color: lightgray;
+}
+main .box3{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 15px 10px -15px gray;
+    padding-bottom: 1.5rem;
+}
+main .cn_box{
+    width: 23%;
+}
+main span{
+    display: inline-flex;
+    padding: 1.5rem 0;
+    color: deeppink;
+}
+main .cn_box p{
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    padding: 0.5rem;
+}
+main .btn{
+    padding: 0 1rem;
+    background-color: lightgray;
+    color: #f191ed;
+    box-shadow: 2px 2px 5px gray;
+}
+main .nr{
+    display: flex;
+}
+main .box4 .left{
+    width: 30%;
+}
+main .box4 .right{
+    width: 70%;
+}
+main .box4 p{
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+}
+#box .title{
+    color: orange;
+    padding: 0.5rem;
+}
+#box{
+    background-color: orangered;
+
+}
+#box .box6{
+    display: flex;
+    position: relative;
+}
+#box .box5{
+    padding-right: 3rem;
+}
+#box p{
+    padding: 0.3rem;
+    font-size: 0.8rem;
+    color: white;
+}
+#box img{
+    width: auto !important;
+    position: absolute;
+    right: 0;
+    bottom: -80px;
+    border: 0 !important;
+}
+footer{
+    background-color: black;
+}
+.box7{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 5rem;
+}
